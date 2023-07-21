@@ -1,0 +1,151 @@
+.btn-shadow {
+  box-shadow: 0px 12px 28px -11px #f53838;
+}
+.box-Shadow {
+  box-shadow: 2px 23px 89px -75px #0d1025;
+}
+.line {
+  border: 1px solid #eeeff2;
+}
+.card-btn:hover {
+  border: 1px solid #f53838 !important;
+}
+.card-btn:hover .btn {
+  background-color: #f53838 !important;
+  color: white;
+}
+
+.col-border {
+  border-right: 0.5px solid lightgray;
+}
+/* Owl carousel */
+#image-slider .owl-nav button {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+#image-slider .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.item {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+}
+#cards-slider-2 .owl-nav button {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+#cards-slider-2 .owl-nav button.owl-prev {
+  left: 86%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #f53838;
+  border: 1px solid #f53838;
+  position: absolute;
+  top: 88%;
+  border-radius: 100%;
+}
+#cards-slider-2 .owl-prev span {
+  font-size: 50px;
+  position: relative;
+  top: -16px;
+  right: 2px;
+}
+#cards-slider .owl-nav button.owl-prev:hover {
+  background-color: #f53838;
+  color: white;
+}
+#cards-slider-2 .owl-nav button.owl-next {
+  right: 2%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #f53838;
+  border: 1px solid #f53838;
+  position: absolute;
+  top: 88%;
+  border-radius: 100%;
+}
+#cards-slider-2 .owl-next span {
+  font-size: 50px;
+  position: relative;
+  top: -16px;
+  left: 2px;
+}
+#cards-slider .owl-nav button.owl-next:hover {
+  background-color: #f53838;
+  color: white;
+}
+#cards-slider-2 .owl-dots {
+  text-align: left;
+  padding-top: 2rem;
+}
+#cards-slider-2 .owl-dots button.owl-dot.active span {
+  width: 30px !important;
+  background-color: #f53838;
+  height: 10px;
+  padding-left: 20px;
+}
+#cards-slider-2 .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+#cards-slider-2 .owl-nav button:focus {
+  outline: none;
+}
+#cards-slider {
+  margin-bottom: 5rem;
+}
+/* Footer */
+.footer {
+  position: relative;
+  background-color: #f8f8f8;
+  margin-top: 10rem;
+}
+.footer-up {
+  position: relative;
+  top: -120px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #cards-slider-2 .owl-dots {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .footer {
+    position: relative;
+    background-color: #f8f8f8;
+    margin-top: 5rem;
+  }
+  .card-btn:hover {
+    border: 1px solid #f53838 !important;
+  }
+  .card-btn:hover .btn {
+    background-color: #f53838 !important;
+    color: white;
+  }
+}
+@media (max-width: 768px) {
+  .col-border {
+    border-right: 0px;
+  }
+  .card-btn:hover {
+    border: 1px solid #f53838 !important;
+  }
+  .card-btn:hover .btn {
+    background-color: #f53838 !important;
+    color: white;
+  }
+}
